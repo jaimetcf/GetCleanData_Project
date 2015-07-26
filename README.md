@@ -17,12 +17,12 @@ original data, according to the project specifications.
 
 The run_analysis.R script will source and execute the following functions:
 
-merge_sets.R                   -> Merges the training and the test sets to create a single data set
+merge_sets.R                   -> Reads the files in the "UCI HAR Dataset" folder and merges the training and the test 
+                                  sets found there to create a single data set
 
-extract_mean_and_std.R         -> Receives the merged data set as parameter and extracts from it only the measurements on the mean and standard deviation for each measurement. Returns a new data set with the extracted measurements
+extract_mean_and_std.R         -> Receives the merged data set as parameter and extracts from it only the measurements on                                     the mean and standard deviation for each measurement. Returns a new data set with the                                       extracted measurements
 
-name_activities.R -> Receives the merged data set as parameter and associates the activity names found in the "activity_labels.txt" file to the activities in the merged data set, according to each respective activity number.
-Returns the updated data set.
+name_activities.R -> Receives the merged data set as parameter and associates the activity names found in the                                    "activity_labels.txt" file to the activities in the merged data set, according to each respective                            activity number. Returns the updated data set.
 
 averages_per_subject_and_activity.R -> Receives the merged data set as parameter and creates a second data set, independent tidy data set with the average of each variable for each activity and each subject. Returns the new data set with
 the summarized data.
