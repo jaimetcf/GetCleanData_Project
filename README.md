@@ -1,4 +1,4 @@
-This file explains how the run_analysis works and how is related to the other scrips present in this repo.
+This file explains how the run_analysis.R script works and how it is related to the other scrips present in this repo.
 
 To run the run_analysis.R the file "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 must have been downloaded and unziped in your working directory, what will create a folder named: "UCI HAR Dataset" with
